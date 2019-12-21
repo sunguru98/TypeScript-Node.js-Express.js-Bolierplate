@@ -1,0 +1,38 @@
+{
+  "name": "typescript-node",
+  "version": "1.0.0",
+  "description": "A simple boilerplate of TypeScript with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/server.ts",
+    "start": "npm dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sunguru98/TypeScript-Node.js-Express.js-Bolierplate.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "npm",
+    "tsc"
+  ],
+  "author": "Sundeep Charan Ramkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunguru98/TypeScript-Node.js-Express.js-Bolierplate/issues"
+  },
+  "homepage": "https://github.com/sunguru98/TypeScript-Node.js-Express.js-Bolierplate#readme",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.21",
+    "express": "^4.17.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
